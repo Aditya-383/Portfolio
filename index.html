@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5c7ee6e2d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://i.pinimg.com/originals/43/74/e4/4374e4890036acfa474374aa7d192b54.jpg" alt=""
+                    class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services ">Coding Profile Link</a></li><!--  services -> Coding profile link  -->
+                    
+                    <li><a href="#portfolio">My Projects</a></li><!--  Portfolio to projects -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer!</p>
+                <h1>Hi,I am <span>Aditya</span><br>Sinha From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------about-------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="WhatsApp Image 2023-07-13 at 19.51.42.jpg" height="105%">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h3>
+                        <p>
+                            <br>
+                            I am 3rd year IT student and looking for  SDE Internship.I have strong command on DSA as well as in web development.I made several projects on it. 
+                            <br>
+                            <br>
+                            I have solved 1000+ DSA questions at different online plateform.1564 max rating at LEETCODE, 3* coder at CODECHEF
+                            <br>
+                            
+                         </p>
+
+                        <div class="tab-titles ">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experince')">Responsibility</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages</span><br>C++, Java, CSS, HTML, Javascript
+                                </li>
+                                <li><span>Area of Interests</span> <br>Competitive programming, DSA, Problem Solving, Web development </li>
+                                <li><span>Developer tools</span><br>VsCode,GitHub
+                                    <li><span>Others</span><br>OS,DBMS,Oops in Java
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experince">
+                            <ul>
+                                <li><span>NSS</span><br>working as a volunteer</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="education">
+                            <ul>
+                                <li><span>2021-25 - Pursuing</span><br>B.E in Information Technology University
+                                    Institute Of Technology,The University Of Burdwan</li>
+                                <li><span>2018-20</span> <br>12th , S.D.S College</li>
+                                <li><span>2018</span> <br>10th , Children Delight Public School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------services--------------->
+    <div id="services">
+        <div class="container">
+            <div class="service-sub-title">Coding Profile Link</div>
+            <div class="service-list">
+                <div>
+                    <!-- <i class="fa-sharp fa-solid fa-code"></i> -->
+                       <h3 class="coding-link-title">Link:</h3>
+                     
+                       <li><a href="https://auth.geeksforgeeks.org/user/adityasinha_500">GFG : Solved more than 500 questions.15(Hard), 240+(Medium) and 190+(Easy) questions</a></ul>
+                       <li><a href="https://www.codechef.com/users/sinha4438">CodeChef : Solved 250+ Questions and participated 28+ contest</a></li>
+                       <li><a href="https://leetcode.com/sinha4438/">LeetCode : Solved 100+ Questions and participated 10+ contest</a></li>
+                       <li><a href="https://www.interviewbit.com/practice/">InterviewBit: Solved 25+ Questions</a></li>
+                    
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------works---------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="work-title">My Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://th.bing.com/th/id/OIP.qUrsZAKs4lmtRAR52VvGggHaFF?w=282&h=194&c=7&r=0&o=5&dpr=1.4&pid=1.7"
+                        alt="">
+                    <div class="layer">
+                        <h3>Tic-tac-toe</h3>
+                        <p>It is a well-known game created with HTML, CSS, and Js.</p>
+                        <a href="#https://aditya-383.github.io/Tic-tac-toe/"><i class="fa-solid fa-link i-tag"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="work">
+                    <img src="https://th.bing.com/th/id/OIP.8jN0KAPEam88i3ntYEY7DwHaE5?w=267&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"
+                        alt="">
+                    <div class="layer">
+                        <h3>portfolio</h3>
+                        <p>Used only css,html and javascript</p>
+                        <a href="#header"><i class="fa-solid fa-link i-tag"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn"><a href="#">See More</a></div>
+        </div>
+    </div>
+
+    <!-- ---------contact------------->
+    <div id="contact">
+        <div class="container">
+            <h2 class="sub-title">Contact Me</h2>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-envelope"></i>it.20213049@gamil.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8862810306</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/aditya-sinha-324649200/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Aditya-383"><i class="fa-brands fa-github"></i></a>
+                        <a href="Aditya_Sinha_Resume (2).pdf" download class="btn r-btn">Download Resume</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="ex: Jon Doe" required>
+                        <input type="text" name="Email" placeholder="ex: JonDoe@gmail.com" required>
+                        <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn r-btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------copyright--------------->
+
+        <div class="copyright">
+            <p>copyright<i class="fa-regular fa-copyright"></i>Adityasinha6231</p>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-links");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-links");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0px";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbybg_4k6ATk3c1V0aek0IWApJG0e-ExOkbDtqRGzR8t8QcFu14SArWT3khhWEx6ih0Z/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully";
+                        setTimeout(function () {
+                            msg.innerHTML = "";
+                        }, 5000);
+
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
